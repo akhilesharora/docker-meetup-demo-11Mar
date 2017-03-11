@@ -9,6 +9,7 @@ run -p host_port:container_port -v host_path:container_path image_id
 ```sh 
 docker run -p 4000:3000 -v ~/code/app:/code/app 414baf3f9caa
 ```
-Open [127.0.0.1:4000](127.0.0.1:4000/articles/new) on Web Browser
+Open [127.0.0.1:4000/articles/new](127.0.0.1:4000/articles/new) on Web Browser
 
 Enjoy!!
+
